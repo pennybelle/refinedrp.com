@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import logo from './images/logo.png';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   const [rubles, setRubles] = useState(0);
@@ -12,7 +13,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" onClick={handleClick} alt="logo" />
+        <Navbar />
+        {/* <img src={logo} className="App-logo" onClick={handleClick} alt="logo" />
         <h2>
           Refined RP Landing Page WIP
         </h2>
@@ -21,12 +23,12 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://discord.gg/refinedrp"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Placeholder
-        </a>
+          Join our Discord
+        </a> */}
       </header>
     </div>
   );

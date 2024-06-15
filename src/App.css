@@ -4,7 +4,7 @@
 
 .App-logo {
   height: 20vmin;
-  align-items: center;
+  /* align-items: center; */
   /* pointer-events: none; */
 }
 
@@ -28,12 +28,17 @@
 .App-link {
   color: #61dafb;
 }
-/* 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+
+.Navbar {
+  width
+  height: 10vmin;
+  align-items: left;
+}
+
+.Navlogo {
+
+}
+
+.Navbuttons {
+
+}
